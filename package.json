@@ -1,0 +1,26 @@
+{
+  "name": "nanogiants-aws-ai-playground",
+  "version": "1.0.0",
+  "description": "This is a playground project for experimenting with various aws ai services",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "aws",
+    "ai",
+    "comprehend",
+    "rekognition",
+    "polly"
+  ],
+  "author": "Stefan Neidig <s.neidig@appcom-interactive.de> (https://appcom-interactive.de)",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.57"
+  },
+  "dependencies": {
+    "typescript": "^3.9.7"
+  }
+}
