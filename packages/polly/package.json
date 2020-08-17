@@ -26,11 +26,25 @@
     "url": "git+https://github.com/nanogiants/aws-ai-playground.git"
   },
   "scripts": {
+    "prebuild": "rm -rf ./dist",
     "build": "tsc",
     "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/nanogiants/aws-ai-playground/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.734.0",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "mkdirp": "^1.0.4",
+    "play-sound": "^1.1.3",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/mkdirp": "^1.0.1",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.57"
   }
 }
