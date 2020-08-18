@@ -8,7 +8,8 @@ This is a collection of sample projects to illustrate AWS ai services. It includ
 <!-- Give an architectural overview of your software. Is is interesting for other developers, who wants to catch on and want to developer features or fix bugs of your software. Do not go into too much detail. There are other documents for this. -->
 Here is a list of available sample projects
 
-* [AWS Polly](https://github.com/nanogiants/aws-ai-playground/blob/develop/packages/polly)
+* [AWS Polly](https://github.com/nanogiants/aws-ai-playground/blob/master/packages/polly)
+* [AWS Comprehend](https://github.com/nanogiants/aws-ai-playground/blob/master/packages/comprehend)
 
 ## Contributing
 <!-- section: Contributing -->
