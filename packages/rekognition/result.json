@@ -1,0 +1,2193 @@
+[
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/2ed1d6d6-e63e-4962-8ad5-ddf292df51c4_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Human",
+          "Confidence": 99.51194763183594,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Person",
+          "Confidence": 99.51194763183594,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.10481704771518707,
+                "Height": 0.18798427283763885,
+                "Left": 0.7267741560935974,
+                "Top": 0.5393228530883789
+              },
+              "Confidence": 99.51194763183594
+            }
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "Bicycle",
+          "Confidence": 99.28104400634766,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.4504532217979431,
+                "Height": 0.32077744603157043,
+                "Left": 0.04198169708251953,
+                "Top": 0.6052535772323608
+              },
+              "Confidence": 99.28104400634766
+            }
+          ],
+          "Parents": [
+            {
+              "Name": "Transportation"
+            },
+            {
+              "Name": "Vehicle"
+            }
+          ]
+        },
+        {
+          "Name": "Vehicle",
+          "Confidence": 99.28104400634766,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Transportation"
+            }
+          ]
+        },
+        {
+          "Name": "Transportation",
+          "Confidence": 99.28104400634766,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Bike",
+          "Confidence": 99.28104400634766,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Transportation"
+            },
+            {
+              "Name": "Vehicle"
+            }
+          ]
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/01dfb553-3b7b-4fbe-bda8-772513d173be_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Outdoors",
+          "Confidence": 99.99949645996094,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Landscape",
+          "Confidence": 99.99949645996094,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Nature",
+          "Confidence": 99.99949645996094,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Scenery",
+          "Confidence": 99.99830627441406,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Aerial View",
+          "Confidence": 99.6334457397461,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Scenery"
+            },
+            {
+              "Name": "Landscape"
+            },
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Urban",
+          "Confidence": 93.44617462158203,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Neighborhood",
+          "Confidence": 93.44617462158203,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Urban"
+            }
+          ]
+        },
+        {
+          "Name": "Metropolis",
+          "Confidence": 87.46849060058594,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Urban"
+            },
+            {
+              "Name": "City"
+            }
+          ]
+        },
+        {
+          "Name": "City",
+          "Confidence": 87.46849060058594,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Urban"
+            }
+          ]
+        },
+        {
+          "Name": "Downtown",
+          "Confidence": 84.14653778076172,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Urban"
+            },
+            {
+              "Name": "City"
+            }
+          ]
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/1436d2a0-691a-4d48-ab9b-d686988c4d7c_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Road",
+          "Confidence": 99.99939727783203,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Building",
+          "Confidence": 99.99939727783203,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Urban",
+          "Confidence": 99.99939727783203,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Street",
+          "Confidence": 99.99939727783203,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Road"
+            },
+            {
+              "Name": "Building"
+            },
+            {
+              "Name": "City"
+            },
+            {
+              "Name": "Urban"
+            }
+          ]
+        },
+        {
+          "Name": "City",
+          "Confidence": 99.99939727783203,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Building"
+            },
+            {
+              "Name": "Urban"
+            }
+          ]
+        },
+        {
+          "Name": "Alley",
+          "Confidence": 97.66605377197266,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Road"
+            },
+            {
+              "Name": "Street"
+            },
+            {
+              "Name": "Building"
+            },
+            {
+              "Name": "City"
+            },
+            {
+              "Name": "Urban"
+            }
+          ]
+        },
+        {
+          "Name": "Housing",
+          "Confidence": 94.28409576416016,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Building"
+            }
+          ]
+        },
+        {
+          "Name": "Condo",
+          "Confidence": 94.28409576416016,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Housing"
+            },
+            {
+              "Name": "Building"
+            }
+          ]
+        },
+        {
+          "Name": "Neighborhood",
+          "Confidence": 84.87574768066406,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Building"
+            },
+            {
+              "Name": "Urban"
+            }
+          ]
+        },
+        {
+          "Name": "Home Decor",
+          "Confidence": 81.34283447265625,
+          "Instances": [],
+          "Parents": []
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/1441a641-ff50-4500-bfaf-069c25c8d3cc_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Droplet",
+          "Confidence": 99.9000244140625,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Photography",
+          "Confidence": 79.71409606933594,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Photo",
+          "Confidence": 79.71409606933594,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Medication",
+          "Confidence": 75.0501708984375,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Pill",
+          "Confidence": 75.0501708984375,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.9624429941177368,
+                "Height": 0.8794541358947754,
+                "Left": 0.01084007229655981,
+                "Top": 0.10768424719572067
+              },
+              "Confidence": 75.0501708984375
+            }
+          ],
+          "Parents": [
+            {
+              "Name": "Medication"
+            }
+          ]
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/d8131f30-a1a0-45b9-9c06-caa0998ed162_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Plant",
+          "Confidence": 99.92371368408203,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.9783145189285278,
+                "Height": 0.868720531463623,
+                "Left": 0.012977523729205132,
+                "Top": 0.11509814858436584
+              },
+              "Confidence": 55.14344787597656
+            }
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "Vegetation",
+          "Confidence": 99.92371368408203,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Woodland",
+          "Confidence": 97.83708953857422,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Tree"
+            },
+            {
+              "Name": "Land"
+            },
+            {
+              "Name": "Plant"
+            },
+            {
+              "Name": "Vegetation"
+            }
+          ]
+        },
+        {
+          "Name": "Outdoors",
+          "Confidence": 97.83708953857422,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Tree",
+          "Confidence": 97.83708953857422,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Land",
+          "Confidence": 97.83708953857422,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Nature",
+          "Confidence": 97.83708953857422,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Grove",
+          "Confidence": 96.66788482666016,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Woodland"
+            },
+            {
+              "Name": "Tree"
+            },
+            {
+              "Name": "Land"
+            },
+            {
+              "Name": "Plant"
+            },
+            {
+              "Name": "Vegetation"
+            }
+          ]
+        },
+        {
+          "Name": "Flower",
+          "Confidence": 95.7741928100586,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Tulip",
+          "Confidence": 87.17353057861328,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Flower"
+            },
+            {
+              "Name": "Plant"
+            }
+          ]
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/ff44755a-1a24-4ce6-b126-77abd9b2da07_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Female",
+          "Confidence": 99.5005874633789,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Person"
+            }
+          ]
+        },
+        {
+          "Name": "Blonde",
+          "Confidence": 99.5005874633789,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Female"
+            },
+            {
+              "Name": "Person"
+            }
+          ]
+        },
+        {
+          "Name": "Person",
+          "Confidence": 99.5005874633789,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.6130600571632385,
+                "Height": 0.8798375129699707,
+                "Left": 0.25040507316589355,
+                "Top": 0.10984355956315994
+              },
+              "Confidence": 98.45191192626953
+            }
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "Plant",
+          "Confidence": 99.35221862792969,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Grass",
+          "Confidence": 99.35221862792969,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Sunlight",
+          "Confidence": 95.63540649414062,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Flare",
+          "Confidence": 95.11318969726562,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Clothing",
+          "Confidence": 94.22529602050781,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Outdoors",
+          "Confidence": 91.7181167602539,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Nature",
+          "Confidence": 89.85493469238281,
+          "Instances": [],
+          "Parents": []
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/8995fc45-1d4a-4926-aeaf-0044b86a1393_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Nature",
+          "Confidence": 99.62205505371094,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Ice",
+          "Confidence": 99.25078582763672,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Outdoors"
+            }
+          ]
+        },
+        {
+          "Name": "Outdoors",
+          "Confidence": 99.25078582763672,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Mountain",
+          "Confidence": 95.68641662597656,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Outdoors"
+            }
+          ]
+        },
+        {
+          "Name": "Snow",
+          "Confidence": 95.0082015991211,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Outdoors"
+            }
+          ]
+        },
+        {
+          "Name": "Mountain Range",
+          "Confidence": 79.88963317871094,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Mountain"
+            },
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Outdoors"
+            }
+          ]
+        },
+        {
+          "Name": "Peak",
+          "Confidence": 79.88963317871094,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Mountain"
+            },
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Mountain Range"
+            },
+            {
+              "Name": "Outdoors"
+            }
+          ]
+        },
+        {
+          "Name": "Winter",
+          "Confidence": 75.2753677368164,
+          "Instances": [],
+          "Parents": []
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/8d132ce5-a50f-4fbe-a937-ff250893ebb1_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Transportation",
+          "Confidence": 94.45542907714844,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Boat",
+          "Confidence": 94.45542907714844,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Transportation"
+            },
+            {
+              "Name": "Vehicle"
+            }
+          ]
+        },
+        {
+          "Name": "Vehicle",
+          "Confidence": 94.45542907714844,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Transportation"
+            }
+          ]
+        },
+        {
+          "Name": "Marina",
+          "Confidence": 78.63001251220703,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Water",
+          "Confidence": 77.19925689697266,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Waterfront",
+          "Confidence": 77.19925689697266,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Water"
+            }
+          ]
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/ee92e376-9370-4b7f-bf6d-a656fa9e00cf_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Train Station",
+          "Confidence": 99.94888305664062,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Terminal"
+            },
+            {
+              "Name": "Transportation"
+            },
+            {
+              "Name": "Train"
+            },
+            {
+              "Name": "Vehicle"
+            }
+          ]
+        },
+        {
+          "Name": "Vehicle",
+          "Confidence": 99.94888305664062,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Transportation"
+            }
+          ]
+        },
+        {
+          "Name": "Terminal",
+          "Confidence": 99.94888305664062,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Transportation",
+          "Confidence": 99.94888305664062,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Train",
+          "Confidence": 99.94888305664062,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Transportation"
+            },
+            {
+              "Name": "Vehicle"
+            }
+          ]
+        },
+        {
+          "Name": "Subway",
+          "Confidence": 97.1063232421875,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Terminal"
+            },
+            {
+              "Name": "Train Station"
+            },
+            {
+              "Name": "Transportation"
+            },
+            {
+              "Name": "Train"
+            },
+            {
+              "Name": "Vehicle"
+            }
+          ]
+        },
+        {
+          "Name": "Bridge",
+          "Confidence": 81.84950256347656,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.9517788887023926,
+                "Height": 0.9225152730941772,
+                "Left": 0.04572116956114769,
+                "Top": 0.07498474419116974
+              },
+              "Confidence": 81.84950256347656
+            }
+          ],
+          "Parents": [
+            {
+              "Name": "Building"
+            }
+          ]
+        },
+        {
+          "Name": "Building",
+          "Confidence": 81.84950256347656,
+          "Instances": [],
+          "Parents": []
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/be78cbf7-2dfb-4a66-95e0-e8b3e8db69a8_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Field",
+          "Confidence": 99.45587158203125,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Rug",
+          "Confidence": 90.94345092773438,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.878648042678833,
+                "Height": 0.9207705855369568,
+                "Left": 0.04564845934510231,
+                "Top": 0.06858783960342407
+              },
+              "Confidence": 90.94345092773438
+            }
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "Building",
+          "Confidence": 85.68541717529297,
+          "Instances": [],
+          "Parents": []
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/15814dbc-a139-4111-aa0e-a3bf3e4e03a7_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Nature",
+          "Confidence": 99.88153839111328,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Cave",
+          "Confidence": 99.66709899902344,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Outdoors",
+          "Confidence": 97.23793029785156,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Mountain",
+          "Confidence": 97.23793029785156,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Outdoors"
+            }
+          ]
+        },
+        {
+          "Name": "Painting",
+          "Confidence": 78.27161407470703,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.9975000023841858,
+                "Height": 0.9975000023841858,
+                "Left": 0,
+                "Top": 0
+              },
+              "Confidence": 78.27161407470703
+            }
+          ],
+          "Parents": [
+            {
+              "Name": "Art"
+            }
+          ]
+        },
+        {
+          "Name": "Art",
+          "Confidence": 78.27161407470703,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Human",
+          "Confidence": 76.48807525634766,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Person",
+          "Confidence": 76.48807525634766,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.8737937808036804,
+                "Height": 0.9645130634307861,
+                "Left": 0.025186462327837944,
+                "Top": 0.02178802527487278
+              },
+              "Confidence": 76.48807525634766
+            }
+          ],
+          "Parents": []
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/61d73fc8-476a-42d4-a353-65b70ad0246d_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Water",
+          "Confidence": 98.8330078125,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Nature",
+          "Confidence": 98.8330078125,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Outdoors",
+          "Confidence": 98.8330078125,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Ocean",
+          "Confidence": 98.8330078125,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Water"
+            },
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Outdoors"
+            }
+          ]
+        },
+        {
+          "Name": "Sea",
+          "Confidence": 98.8330078125,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Water"
+            },
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Outdoors"
+            }
+          ]
+        },
+        {
+          "Name": "Vehicle",
+          "Confidence": 88.05731964111328,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Transportation"
+            }
+          ]
+        },
+        {
+          "Name": "Transportation",
+          "Confidence": 88.05731964111328,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Military",
+          "Confidence": 78.72986602783203,
+          "Instances": [],
+          "Parents": []
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/0b3b9ab8-0a23-472a-9e30-f319ba1cdcb3_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Nature",
+          "Confidence": 99.47642517089844,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Outdoors",
+          "Confidence": 98.88585662841797,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Mountain",
+          "Confidence": 97.94981384277344,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Mountain Range",
+          "Confidence": 94.19542694091797,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Mountain"
+            },
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Peak",
+          "Confidence": 94.19542694091797,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Mountain"
+            },
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Mountain Range"
+            }
+          ]
+        },
+        {
+          "Name": "Snow",
+          "Confidence": 77.08702850341797,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            }
+          ]
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/d1977222-ebc2-4b49-97f3-aef78752e288_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Plant",
+          "Confidence": 96.6517562866211,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Grass",
+          "Confidence": 96.6517562866211,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Nature",
+          "Confidence": 95.73347473144531,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Flare",
+          "Confidence": 95.60107421875,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Light"
+            }
+          ]
+        },
+        {
+          "Name": "Light",
+          "Confidence": 95.60107421875,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Sunlight",
+          "Confidence": 94.7603530883789,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Vegetation",
+          "Confidence": 94.31132507324219,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Outdoors",
+          "Confidence": 89.92565155029297,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Field",
+          "Confidence": 79.08478546142578,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Flower",
+          "Confidence": 76.70217895507812,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/01a062c7-42a0-48ad-a637-8455b09c0477_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Plant",
+          "Confidence": 99.53855895996094,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Bamboo",
+          "Confidence": 96.1175765991211,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/4ee28b66-75ec-4cc7-a568-25b997c06d6c_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Plant",
+          "Confidence": 99.1208267211914,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Blossom",
+          "Confidence": 94.76172637939453,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Flower",
+          "Confidence": 94.76172637939453,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Dandelion",
+          "Confidence": 93.87557220458984,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Flower"
+            },
+            {
+              "Name": "Plant"
+            }
+          ]
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/46d6384e-e912-4e2c-9b41-f6fef8011821_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Nature",
+          "Confidence": 99.82491302490234,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Outdoors",
+          "Confidence": 97.30010986328125,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Storm",
+          "Confidence": 96.91590881347656,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Thunderstorm",
+          "Confidence": 86.9666519165039,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Storm"
+            },
+            {
+              "Name": "Nature"
+            }
+          ]
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/35db2f2b-fb08-4f98-b685-5d3a09ffe63d_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Tabletop",
+          "Confidence": 99.99636840820312,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Furniture"
+            }
+          ]
+        },
+        {
+          "Name": "Furniture",
+          "Confidence": 99.99636840820312,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Table",
+          "Confidence": 99.76986694335938,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Furniture"
+            }
+          ]
+        },
+        {
+          "Name": "Dining Table",
+          "Confidence": 96.3697509765625,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Table"
+            },
+            {
+              "Name": "Furniture"
+            }
+          ]
+        },
+        {
+          "Name": "Coffee Table",
+          "Confidence": 93.36143493652344,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Table"
+            },
+            {
+              "Name": "Furniture"
+            }
+          ]
+        },
+        {
+          "Name": "Desk",
+          "Confidence": 90.54878234863281,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Table"
+            },
+            {
+              "Name": "Furniture"
+            }
+          ]
+        },
+        {
+          "Name": "Chair",
+          "Confidence": 89.45227813720703,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Furniture"
+            }
+          ]
+        },
+        {
+          "Name": "Home Decor",
+          "Confidence": 86.3322525024414,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Plant",
+          "Confidence": 78.8940658569336,
+          "Instances": [],
+          "Parents": []
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/4a633356-6050-4418-a817-86bc79990c76_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Nature",
+          "Confidence": 99.78382110595703,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Outdoors",
+          "Confidence": 98.3552474975586,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Fog",
+          "Confidence": 92.24278259277344,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Sand",
+          "Confidence": 89.20301818847656,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Outdoors"
+            }
+          ]
+        },
+        {
+          "Name": "Weather",
+          "Confidence": 77.94955444335938,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Nature"
+            }
+          ]
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/a43f1a22-3156-4f32-8839-73f1d98477f4_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Electronics",
+          "Confidence": 99.91209411621094,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Computer",
+          "Confidence": 99.91209411621094,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Electronics"
+            }
+          ]
+        },
+        {
+          "Name": "Pc",
+          "Confidence": 99.91209411621094,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Electronics"
+            },
+            {
+              "Name": "Computer"
+            }
+          ]
+        },
+        {
+          "Name": "Laptop",
+          "Confidence": 99.55064392089844,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.9060820937156677,
+                "Height": 0.6391140222549438,
+                "Left": 0.02536003105342388,
+                "Top": 0.1595679074525833
+              },
+              "Confidence": 98.47920989990234
+            }
+          ],
+          "Parents": [
+            {
+              "Name": "Electronics"
+            },
+            {
+              "Name": "Computer"
+            },
+            {
+              "Name": "Pc"
+            }
+          ]
+        },
+        {
+          "Name": "Display",
+          "Confidence": 84.91004943847656,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Electronics"
+            },
+            {
+              "Name": "Screen"
+            }
+          ]
+        },
+        {
+          "Name": "LCD Screen",
+          "Confidence": 84.91004943847656,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Electronics"
+            },
+            {
+              "Name": "Screen"
+            },
+            {
+              "Name": "Monitor"
+            }
+          ]
+        },
+        {
+          "Name": "Screen",
+          "Confidence": 84.91004943847656,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Electronics"
+            }
+          ]
+        },
+        {
+          "Name": "Monitor",
+          "Confidence": 84.91004943847656,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Electronics"
+            },
+            {
+              "Name": "Screen"
+            }
+          ]
+        },
+        {
+          "Name": "Table",
+          "Confidence": 76.0428237915039,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Furniture"
+            }
+          ]
+        },
+        {
+          "Name": "Furniture",
+          "Confidence": 76.0428237915039,
+          "Instances": [],
+          "Parents": []
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/7da4522c-859f-4798-bf3f-38772df5951e_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Building",
+          "Confidence": 98.01392364501953,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Bridge",
+          "Confidence": 98.01392364501953,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.9191357493400574,
+                "Height": 0.925886332988739,
+                "Left": 0.06832664459943771,
+                "Top": 0.05436691269278526
+              },
+              "Confidence": 98.01392364501953
+            }
+          ],
+          "Parents": [
+            {
+              "Name": "Building"
+            }
+          ]
+        },
+        {
+          "Name": "Road",
+          "Confidence": 89.04765319824219,
+          "Instances": [],
+          "Parents": []
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/3b7a576d-7d3a-4680-a031-5000a7ef1f4b_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Plant",
+          "Confidence": 99.26405334472656,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Flower",
+          "Confidence": 99.15457916259766,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Daisy",
+          "Confidence": 99.15457916259766,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Flower"
+            },
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Aster",
+          "Confidence": 98.33335876464844,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Flower"
+            },
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Clothing",
+          "Confidence": 97.63502502441406,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Asteraceae",
+          "Confidence": 96.5481185913086,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Flower"
+            },
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Nature",
+          "Confidence": 89.6143569946289,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Petal",
+          "Confidence": 88.83055114746094,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Flower"
+            },
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Outdoors",
+          "Confidence": 86.31450653076172,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Person",
+          "Confidence": 84.66967010498047,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.8341001272201538,
+                "Height": 0.7819892764091492,
+                "Left": 0.022451553493738174,
+                "Top": 0.16183845698833466
+              },
+              "Confidence": 84.66967010498047
+            },
+            {
+              "BoundingBox": {
+                "Width": 0.08698394894599915,
+                "Height": 0.11867645382881165,
+                "Left": 0.9036291241645813,
+                "Top": 0.8438057899475098
+              },
+              "Confidence": 55.77170944213867
+            }
+          ],
+          "Parents": []
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/7188c175-148b-426f-9f28-8e0d8ff22e48_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Water",
+          "Confidence": 99.93292999267578,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Nature",
+          "Confidence": 99.93292999267578,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Outdoors",
+          "Confidence": 99.93292999267578,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Ocean",
+          "Confidence": 99.93292999267578,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Water"
+            },
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Outdoors"
+            }
+          ]
+        },
+        {
+          "Name": "Sea",
+          "Confidence": 99.93292999267578,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Water"
+            },
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Outdoors"
+            }
+          ]
+        },
+        {
+          "Name": "Sea Waves",
+          "Confidence": 95.93321990966797,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Water"
+            },
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Sea"
+            }
+          ]
+        },
+        {
+          "Name": "Shoreline",
+          "Confidence": 87.76139068603516,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Water"
+            }
+          ]
+        },
+        {
+          "Name": "Painting",
+          "Confidence": 76.7525863647461,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.9975000023841858,
+                "Height": 0.9883065819740295,
+                "Left": 0,
+                "Top": 0.00919342041015625
+              },
+              "Confidence": 76.7525863647461
+            }
+          ],
+          "Parents": [
+            {
+              "Name": "Art"
+            }
+          ]
+        },
+        {
+          "Name": "Art",
+          "Confidence": 76.7525863647461,
+          "Instances": [],
+          "Parents": []
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/9e1067d8-6d76-4727-be03-8c050232a036_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Nature",
+          "Confidence": 99.74058532714844,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Outdoors",
+          "Confidence": 99.55535888671875,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Mountain",
+          "Confidence": 98.50390625,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Sky",
+          "Confidence": 94.83556365966797,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Cloud",
+          "Confidence": 93.88544464111328,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Sky"
+            },
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Art",
+          "Confidence": 89.92557525634766,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Painting",
+          "Confidence": 89.92557525634766,
+          "Instances": [
+            {
+              "BoundingBox": {
+                "Width": 0.9975000023841858,
+                "Height": 0.8997669816017151,
+                "Left": 0,
+                "Top": 0.08908698707818985
+              },
+              "Confidence": 89.92557525634766
+            }
+          ],
+          "Parents": [
+            {
+              "Name": "Art"
+            }
+          ]
+        },
+        {
+          "Name": "Weather",
+          "Confidence": 85.5667953491211,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Cumulus",
+          "Confidence": 81.18963623046875,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Sky"
+            },
+            {
+              "Name": "Weather"
+            },
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Cloud"
+            }
+          ]
+        },
+        {
+          "Name": "Volcano",
+          "Confidence": 75.03094482421875,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Mountain"
+            },
+            {
+              "Name": "Nature"
+            }
+          ]
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  },
+  {
+    "file": "/Users/stefan/Projects/Javascript/Nodejs/nanogiants-aws-ai-playground/packages/rekognition/temp/115b7048-1f2e-4d2f-87b5-d26b74085dff_download.png",
+    "labels": {
+      "Labels": [
+        {
+          "Name": "Plant",
+          "Confidence": 99.88953399658203,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Vegetation",
+          "Confidence": 99.88953399658203,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Bush",
+          "Confidence": 99.80961608886719,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            },
+            {
+              "Name": "Vegetation"
+            }
+          ]
+        },
+        {
+          "Name": "Nature",
+          "Confidence": 99.47119140625,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Outdoors",
+          "Confidence": 98.83956909179688,
+          "Instances": [],
+          "Parents": []
+        },
+        {
+          "Name": "Woodland",
+          "Confidence": 98.83407592773438,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Tree"
+            },
+            {
+              "Name": "Land"
+            },
+            {
+              "Name": "Plant"
+            },
+            {
+              "Name": "Vegetation"
+            }
+          ]
+        },
+        {
+          "Name": "Tree",
+          "Confidence": 98.83407592773438,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Land",
+          "Confidence": 98.83407592773438,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            }
+          ]
+        },
+        {
+          "Name": "Grass",
+          "Confidence": 97.43453216552734,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Plant"
+            }
+          ]
+        },
+        {
+          "Name": "Grove",
+          "Confidence": 94.6556396484375,
+          "Instances": [],
+          "Parents": [
+            {
+              "Name": "Outdoors"
+            },
+            {
+              "Name": "Nature"
+            },
+            {
+              "Name": "Woodland"
+            },
+            {
+              "Name": "Tree"
+            },
+            {
+              "Name": "Land"
+            },
+            {
+              "Name": "Plant"
+            },
+            {
+              "Name": "Vegetation"
+            }
+          ]
+        }
+      ],
+      "LabelModelVersion": "2.0"
+    }
+  }
+]
