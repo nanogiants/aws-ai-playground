@@ -10,6 +10,7 @@ Here is a list of available sample projects
 
 * [AWS Polly](https://github.com/nanogiants/aws-ai-playground/blob/master/packages/polly)
 * [AWS Comprehend](https://github.com/nanogiants/aws-ai-playground/blob/master/packages/comprehend)
+* [AWS Rekognition](https://github.com/nanogiants/aws-ai-playground/blob/master/packages/rekognition)
 
 ## Contributing
 <!-- section: Contributing -->
