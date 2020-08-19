@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "schemaVersion": "1.0",
+    "importType": "LEX",
+    "importFormat": "JSON"
+  },
+  "resource": {
+    "name": "CryptoCurrencyBot",
+    "version": "1",
+    "intents": [
+      {
+        "name": "CryptoCurrencyList",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "What currencies do you know",
+          "What are available currencies",
+          "Give me a list of currencies",
+          "I don't know any currencies",
+          "Help me get started",
+          "I don't know anything about crypto currencies",
+          "What are crypto currencies",
+          "Do you know crypto currencies",
+          "What crypto currencies are available",
+          "Can you give me a list of currencies",
+          "Give me a list"
+        ],
+        "slots": []
+      },
+      {
+        "name": "CryptoCurrencyTicker",
+        "version": "2",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "Give me a ticker to {Currency}",
+          "Ticker to {Currency}",
+          "What is historical data for {Currency}",
+          "How much was {Currency} yesterday",
+          "Price of {Currency} over time",
+          "What is the price history of {Currency}",
+          "{Currency} ticker",
+          "I want information on {Currency} pricing data",
+          "What were the prices for {Currency}",
+          "Ticker data for {Currency}",
+          "Ticker {Currency}",
+          "Plot prices for {Currency}",
+          "Show me graph of {Currency}"
+        ],
+        "slots": [
+          {
+            "sampleUtterances": [],
+            "slotType": "AMAZON.AlphaNumeric",
+            "obfuscationSetting": "NONE",
+            "slotConstraint": "Required",
+            "valueElicitationPrompt": {
+              "messages": [
+                {
+                  "contentType": "PlainText",
+                  "content": "What is currency?"
+                }
+              ],
+              "maxAttempts": 2
+            },
+            "priority": 1,
+            "name": "Currency"
+          }
+        ]
+      },
+      {
+        "name": "CryptoCurrencyDetails",
+        "version": "1",
+        "fulfillmentActivity": {
+          "type": "ReturnIntent"
+        },
+        "sampleUtterances": [
+          "Tell me more about {Currency}",
+          "Do you know more about {Currency}",
+          "{Currency}",
+          "What is the current price of {Currency}",
+          "I want to know the current price of {Currency}",
+          "I want to know more about {Currency}",
+          "What is {Currency}",
+          "What is a {Currency} worth",
+          "How much is a {Currency}"
+        ],
+        "slots": [
+          {
+            "sampleUtterances": [],
+            "slotType": "AMAZON.AlphaNumeric",
+            "obfuscationSetting": "NONE",
+            "slotConstraint": "Required",
+            "valueElicitationPrompt": {
+              "messages": [
+                {
+                  "contentType": "PlainText",
+                  "content": "What currency?"
+                }
+              ],
+              "maxAttempts": 2
+            },
+            "priority": 1,
+            "name": "Currency"
+          }
+        ]
+      }
+    ],
+    "voiceId": "0",
+    "childDirected": false,
+    "locale": "en-US",
+    "idleSessionTTLInSeconds": 60,
+    "clarificationPrompt": {
+      "messages": [
+        {
+          "contentType": "PlainText",
+          "content": "Sorry, can you please repeat that?"
+        }
+      ],
+      "maxAttempts": 5
+    },
+    "abortStatement": {
+      "messages": [
+        {
+          "contentType": "PlainText",
+          "content": "Sorry, I could not understand. Goodbye."
+        }
+      ]
+    },
+    "detectSentiment": false,
+    "nluIntentConfidenceThreshold": 0.4,
+    "enableModelImprovements": true
+  }
+}
