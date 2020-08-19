@@ -34,10 +34,10 @@ Create a file called `.env` and add the following environment variables
 
 | Name                  | Description                                                                                                                                                    | Example            | Required |
 | :-------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- | :------- |
-| AWS_SERVICE_VERSION   | The version od the AWS Poly client                                                                                                                             | 2017-11-27         | Yes      |
-| AWS_ACCESS_KEY_ID     | The access key id for the AWS account polly is using                                                                                                           |                    | Yes      |
-| AWS_SECRET_ACCESS_KEY | The secret access key for the AWS account polly is using                                                                                                       |                    | Yes      |
-| AWS_REGION            | The region for the AWS account polly is using                                                                                                                  | eu-central-1       | Yes      |
+| AWS_SERVICE_VERSION   | The version od the AWS Comprehend client                                                                                                                       | 2017-11-27         | Yes      |
+| AWS_ACCESS_KEY_ID     | The access key id for the AWS account Comprehend is using                                                                                                      |                    | Yes      |
+| AWS_SECRET_ACCESS_KEY | The secret access key for the AWS account Comprehend is using                                                                                                  |                    | Yes      |
+| AWS_REGION            | The region for the AWS account Comprehend is using                                                                                                             | eu-central-1       | Yes      |
 | GOOGLE_PLAY_APP_ID    | The package id of the app you want to fetch reviews for                                                                                                        | com.android.chrome | Yes      |
 | GOOGLE_PLAY_LOCALE    | The locale of the reviews you want to fetch. Must be in the format lang-country, where lang is ISO 639-1 compatible and country is ISO 3166 ALPHA-2 compatible | de-DE              | No       |
 | GOOGLE_PLAY_LIMIT     | The maximum number of reviews you want to fetch                                                                                                                | 50                 | No       |
