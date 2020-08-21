@@ -2,13 +2,24 @@
 <!-- section: Introduction -->
 <!-- Describe briefly what your software is. What problem does it solve? At what target audience is it aimed? -->
 
-This is a sample project for the AWS Polly service, which is designed for converting text into speech. The Chuck Norrsi Fact Reader fetches a random Chuck Norris Fact and utilizes Polly to convert it into an mp3 file, which is then read out loud for your amusement.
+**AWS Polly - text to speech:**
+Chuck Norris Fact Reader fetches random chuck norris facts (sometimes referred to as *joke*), sends the data to AWS Polly. Polly then analyzes the text and converts it to speech. This services offers various voices and also a whole markup language called SSML (Speech Synthesis Markup Language), which enabled you to add breaks, custom pronunciations and many more. See https://docs.aws.amazon.com/polly/latest/dg/supportedtags.html for more information. Polly sends some sort of audio bytes in return, which then can be read out loud using node-player.
+
+**Why this matters:**
+We are currently experiencing a change in the way we handle technology. In the early days we used to operate computers mainly by keyboard, which demanded a lot of knowledge from us. In 1983 Lisa was released by Apple and offered a GUI and a mouse for the mass market. In the mid 2000s the era of touch devices began and showed us how to handle computers (now we have to ay devices) intuitively. We can expect that immersion will get stronger and that we interact with machines even more intuitively in the future. A logical step in this process is communication via speech. Alexa was first published by Amazon in 2015 and makes exactly this possible. 
+
+Communication via speech is something very natural for us humans. For computers, however, it is a scientific discipline in its own right. The conversion of text into speech is a significant part of it. Computer voices have been around for a very long time and were already delivered with certain operating systems or programs in the early 2000s. However, these sounded awkward and unnatural. Amazon Polly promises life-like speech without the complex and highly mathematical technology behind it - at least for us developers. 
+
+This leads to interesting usecases. From talking chat bots, improved accessability for apps, to applications in medicine (e.g. reading medical data for ECG) and home automation (e.g. voice interaction with smart home devices) many use cases are possible. 
+
+See [this thread](https://www.readspeaker.com/tts-software-use-cases/) for more information on this topic.
+
+We are excited what the future of human-machine-interaction will be and how we will comunicate with computers in the next years.
 
 ## Overview
 <!-- section: Overview -->
 <!-- Give an architectural overview of your software. Is is interesting for other developers, who wants to catch on and want to developer features or fix bugs of your software. Do not go into too much detail. There are other documents for this. -->
 The full coded is under src/index.ts and documented thoroughly. 
-
 
 ## Development
 <!-- section: Development -->
@@ -39,7 +50,7 @@ Create a file called `.env` and add the following environment variables
 | AWS_SECRET_ACCESS_KEY | The secret access key for the AWS account Polly is using |              |
 | AWS_REGION            | The region for the AWS account Polly is using            | eu-central-1 |
 
-Finally run `npm run start:dev` for running the example. You can build the example using `npm run build`.
+Check that thw AWS account associated with the access key id and secret access key is allowed to interact with AWS Polly. Finally run `npm run start:dev` for running the example. You can build the example using `npm run build`.
 
 ## Contributing
 <!-- section: Contributing -->
@@ -50,10 +61,7 @@ Bug reports and pull requests are welcome on GitHub at [https://github.com/nanog
 <!-- section: License -->
 <!-- Describe the license under which your software is published. Note that an unlicensed piece of software is most likely never used. So do not skip tihs part! -->
 ```
-The MIT License (MIT)
-=====================
-
-Copyright © `2020` `NanoGiants GmbH`
+Copyright © 2020 NanoGiants GmbH
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
