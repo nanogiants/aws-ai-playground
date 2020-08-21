@@ -2,13 +2,18 @@
 <!-- section: Introduction -->
 <!-- Describe briefly what your software is. What problem does it solve? At what target audience is it aimed? -->
 
-This is a sample project for the AWS Comprehend. This service is capable of performing sentiment analysis, key word extraction, language inferring and many more. This sample project illustrates sentiment analysis in particular. It downloads the latest reviews for an app on the google play store and analysis whether the reviews are written in a positive, negative, neutral or mixed way (i.e. positive and negative aspects). It summarizes its findings by showing the distribution of the classes and gives the maximum and minimum value of the given class. Finally it exports reviews and their respective sentiments to a file called `result.json`.
+**AWS Comprehend - natural language processing:**
+Google Play Store Review Sentiment Analysis is just a sample for one of the many use cases nlp (natural language processing) has to offer. Reviews contain valuable information from your audience, which can be used to develop your application and provice useful features. However, analysing these reviews and getting useul information can be hard. Consider your highly successful app getting hundreds of reviews a day. If this sounds unrealistic then add google reviews for your business, iTunes connect reviews and the like. Automatically processing these kind of unstructured data using nlp techniques is a huge benefit. In our sample we cluster user reviews into sentiments (i.e. positive, negative, neutral, mixed). 
+
+**Why this matters:**
+We are flooded with a wave of unstructured data, especially text. With the rise of social media and the possibility of commenting on everything and everyone, we encourage this day by day. Normally, we try to structure this data to refine it to information. This process is resource-intensive and is usually done by a human being. However, it is indispensable, because very often valuable information is hidden in such data sets.
+
+The possibility of having a computer analyze and process this data seems only too obvious. In fact this is anything but trivial. It requires knowledge about context, awareness of linguistic devices such as sarcasm, metaphors or other rhetorical devices. In addition, the language of the text must be known or inferred and a concept of syntax must also be present.  AWS Comprehend offers all these things and makes them available to us developers via an API. This gives us access to unstructured data and allows us to enrich information. There is a huge potential in this form of retrieving information, which we will discover little by little in the future.
 
 ## Overview
 <!-- section: Overview -->
 <!-- Give an architectural overview of your software. Is is interesting for other developers, who wants to catch on and want to developer features or fix bugs of your software. Do not go into too much detail. There are other documents for this. -->
 The full coded is under src/index.ts and documented thoroughly. 
-
 
 ## Development
 <!-- section: Development -->
@@ -53,10 +58,7 @@ Bug reports and pull requests are welcome on GitHub at [https://github.com/nanog
 <!-- section: License -->
 <!-- Describe the license under which your software is published. Note that an unlicensed piece of software is most likely never used. So do not skip tihs part! -->
 ```
-The MIT License (MIT)
-=====================
-
-Copyright © `2020` `NanoGiants GmbH`
+Copyright © 2020 NanoGiants GmbH
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
