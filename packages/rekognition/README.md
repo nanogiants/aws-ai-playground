@@ -2,7 +2,19 @@
 <!-- section: Introduction -->
 <!-- Describe briefly what your software is. What problem does it solve? At what target audience is it aimed? -->
 
+**AWS Rekognition - image detection:**
 This is a sample project for the AWS Rekognition service. Rekognition is a powerful ai service and is capable of (amongst other) label detection in images and videos, face and sentiment detection, face matching in several images and many more. This sample project focuses on label detection within images. If you need mock or placeholder images, you usually refer to one of the many APIs avilable. You can fetch a random image from there and display it to the user. Usually you have some sort of parametrization like size, color or type of image (e.g. sport, nature, ...). The image type may be useful dependengin on your usecase, but is not available for every api. So let's write an application, which fetches a number of images from such an API and determines the type of the image using AWS Rekognition. We can then use this labels to categorize our images and offer them to the user instead of always fetching a new random image.
+
+**Why this matters:**
+Images and videos are unstructured data, providing a tremendious amount of valuable information. Processing these kind of information is usually easy for human beings, but hard for machines. However, we can derive many usecases from image and video processing, such as 
+
+* Sentiment analysis in images and videos
+* Automatically categorizes and cluster images
+* Check files for unsuitable content
+* Find associations between images and videos (i.e. is the same person on different images)
+* Generally speaking: actually understand what is shown on the image / video
+
+AWS Rekognition offers a wider variety of image and video detection tasks and is one of the more mature AI services, AWS has to offer. With this service, many manual tasks can be automated, and otherwise impossible features can be implemented. 
 
 ## Overview
 <!-- section: Overview -->
