@@ -1,7 +1,9 @@
 # AWS ai playground
 <!-- section: Introduction -->
 <!-- Describe briefly what your software is. What problem does it solve? At what target audience is it aimed? -->
-This is a collection of sample projects to illustrate AWS ai services. It includes samples for various services (including polly, comprehend and rekognition). You have to provide your own AWS credentials. See the `README.md` file of the respective packages.
+AI is popular field of research and is becoming available for the mass market in form of applications and services. Developers have to master skills, that are needed, to offer such services. In fact, AI is a often complicated and you usually have to study it for years to apply it an actual real world problem. Luckily there are already mature services out there, which do all the heavy lifting. Here we are looking into some AWS AI services for text to speech conversion, text comprehension, image and video recognition and conversational AI. All of them are usecases that require a lot of skill in a wide area of artificial intelligence and even more resources spent in order to produce valid results. With the high level API provided by AWS, all you need to know is how to interact with a RESTful JSON API.
+
+This is a collection of sample projects to illustrate these services. You have to provide your own AWS credentials. See the `README.md` file of the respective packages for more information.
 
 ## Overview
 <!-- section: Overview -->
