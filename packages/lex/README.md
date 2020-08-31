@@ -2,6 +2,7 @@
 <!-- section: Introduction -->
 <!-- Describe briefly what your software is. What problem does it solve? At what target audience is it aimed? -->
 
+**AWS Lex - AI powered chatbots:**
 This is a sample project for the AWS Lex service. This service powers Amazon Alexa and provides a system for intent inferation, which can then be used to trigger actions (either as response or as AWS Lambda). We use this to create a basic crypto currency chatbot. We will add three commands, which are
 
 * Get a list of known crypto currencies
@@ -9,6 +10,16 @@ This is a sample project for the AWS Lex service. This service powers Amazon Ale
 * Get a 45 day ticker of a given crypto currency prices (in USD)
 
 Happy chatting :) 
+
+**Why this matters:**
+When examinging recent statistics for chatbots we find that
+* Chatbots can cut operational costs by up to 30%. (Statistic by Chatbots Live)
+* 37% of people use a customer service bot to get a quick answer in emergencies. (Statistic by Drift)
+* 85% of customer interactions will be handled without human agents by 2021. (Statistic by Chatbots Live)
+
+AI powered chatbots are a breakthrough in customer service. They are cost effective, provide crucial information about the most common tasks for your business and are available 24/7. As a matter of fact, we are getting used for dealing with AI in a context, where we expected human interaction. This holds for all age groups (Forbes, Apiumhub).
+
+There are other fields where conversial AIs (i.e. chatbots) might be useful. Future chatbots can act as assistant or secretary. Actually Google Duplex is already mature in this field. See [this video](https://www.youtube.com/watch?v=D5VN56jQMWM) as an example. Consider knowledge transfer in general. Chatbots have a huge potential to revolutionize the way we live, work and learn.
 
 ## Overview
 <!-- section: Overview -->
