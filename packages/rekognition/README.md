@@ -63,7 +63,7 @@ Create a file called `.env` and add the following environment variables
 
 | Name                           | Description                                                                              | Example      |
 | :----------------------------- | :--------------------------------------------------------------------------------------- | :----------- |
-| AWS_SERVICE_VERSION            | The version od the AWS Rekognition client                                                | 2016-06-10   |
+| AWS_SERVICE_VERSION            | The version od the AWS Rekognition client                                                | 2016-06-27   |
 | AWS_ACCESS_KEY_ID              | The access key id for the AWS account Rekognition is using                               |              |
 | AWS_SECRET_ACCESS_KEY          | The secret access key for the AWS account Rekognition is using                           |              |
 | AWS_REGION                     | The region for the AWS account Rekognition is using                                      | eu-central-1 |
